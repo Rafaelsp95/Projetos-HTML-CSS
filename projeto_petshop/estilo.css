@@ -1,0 +1,207 @@
+/* estilos globais css */
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------
+
+Início seção-banner */
+
+.secao-banner {
+    text-align: left;
+    background-image: url('img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1024px;
+    width: 100%;
+    min-height: 550px;
+    height: 700px; 
+    padding: 80px 20px;
+    color: #3c184e;
+}
+
+.secao-banner .nome-logo {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.nome-logo .img-pata {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.secao-banner p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.container-img-fundo {
+    background-position: center;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 750px;
+    width: 60%;
+    height: auto;
+    color: #3c184e;  
+    text-align: center;  
+    background-color: #fff5fbaf; /* os dois últimos valores são responsáveis pela ocapidade do container */
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px 5px #00000068;
+}
+
+h1 {
+    margin-bottom: 65px;
+    font-size: 35px;
+}
+
+.container-img-fundo p { 
+    margin: auto;
+    max-width: 400px;
+    border: 5px solid #3c184e;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #3c184e;
+    position: relative;
+}
+
+
+.link-fale-conosco a {
+    color: white;
+}
+
+.link-fale-conosco img {
+    height: 30px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+/* Fim secao-banner 
+
+--------------------------------------------------------------------------------------------------------------
+
+Início seção serviços */
+
+.servicos {
+    margin: 20px auto;
+    padding: 20px;
+    color: #3c184e;
+    text-align: justify;
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+    margin: 30px 0 50px 0;
+    font-size: 30px;
+}
+
+ul li {
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+
+.negrito {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: auto;
+}
+
+.imagens img {
+    box-shadow: 10px 10px 30px 10px rgba(37, 35, 35, 0.281); 
+    margin: 5px 2px;
+    width: 150px;
+    height: 240px;
+    border: 1px solid gray;
+    margin: 5px 2px;
+}
+
+/* Fim deção serviços 
+
+-------------------------------------------------------------------------------------------
+
+Início seção redes sociais */
+
+.secao-redes-sociais, .secao-localizacao {
+    background-color: #3c184e;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 100px;
+    width: 100%;
+    height: 450px;
+}
+
+.secao-redes-sociais p {
+    margin: 50px auto;
+}
+
+.logo-rede-social img {
+    width: 50px;
+    margin: 0 20px;
+}
+
+/* Fim da seção redes sociais
+
+---------------------------------------------------------------------------------------
+
+Início da seção marcas */
+
+.marcas {
+    color: #3c184e;
+    text-align: center;
+   
+}
+
+.imagem-marca img {
+    width: 150px;
+    margin: auto 15px;
+}
+
+/* Final da seção marcas
+
+----------------------------------------------------------------------------------
+
+Início da seção lozalização */
+
+.secao-localizacao {
+    height: 700px;
+    margin: 25px auto;
+}
+
+.secao-localizacao iframe {
+    width: 80%;
+    max-width: 700px;
+    max-height: 500px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+/* Final da seção localização */
+
+.desenvolvedor {
+    font-size: 25px;
+    text-align: center;
+}
+
+.links img {
+    width: 50px;
+    margin: 20px 10px;
+}
