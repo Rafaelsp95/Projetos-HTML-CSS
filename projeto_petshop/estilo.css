@@ -9,7 +9,13 @@
 
 /*----------------------------------------------------------------
 
+
 Início seção-banner */
+
+.main {
+    width: 100%;
+    min-width: 380px;
+}
 
 .secao-banner {
     text-align: left;
@@ -18,7 +24,6 @@ Início seção-banner */
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
-    width: 1024px;
     width: 100%;
     min-height: 550px;
     height: 700px; 
@@ -46,8 +51,8 @@ Início seção-banner */
     background-position: center;
     padding: 50px;
     margin: 50px auto;
-    max-width: 750px;
-    width: 60%;
+    min-width: 350px;
+    width: 50%;
     height: auto;
     color: #3c184e;  
     text-align: center;  
@@ -57,7 +62,7 @@ Início seção-banner */
 }
 
 h1 {
-    margin-bottom: 65px;
+    margin-bottom: 50px;
     font-size: 35px;
 }
 
@@ -65,24 +70,22 @@ h1 {
     margin: auto;
     max-width: 400px;
     border: 5px solid #3c184e;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     font-size: 17px;
     font-weight: 700;
     background-color: #3c184e;
-    position: relative;
 }
 
 
 .link-fale-conosco a {
     color: white;
+ 
 }
 
 .link-fale-conosco img {
-    height: 30px;
-    position: absolute;
-    right: 8px;
-    top: 8px;
+    width: 30px;
+    margin-left: 10px;
 }
 
 /* Fim secao-banner 
@@ -96,7 +99,7 @@ Início seção serviços */
     padding: 20px;
     color: #3c184e;
     text-align: justify;
-    width: 50%;
+    width: 60%;
 }
 
 h3 {
@@ -120,17 +123,17 @@ ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 800px;
+    align-items: center;
     margin: auto;
+    max-width: 800px;
+    flex-grow: 1;
 }
 
 .imagens img {
     box-shadow: 10px 10px 30px 10px rgba(37, 35, 35, 0.281); 
-    margin: 5px 2px;
     width: 150px;
     height: 240px;
     border: 1px solid gray;
-    margin: 5px 2px;
 }
 
 /* Fim deção serviços 
@@ -146,11 +149,12 @@ Início seção redes sociais */
     font-size: 25px;
     padding-top: 100px;
     width: 100%;
-    height: 450px;
+    min-width: 380px;
+    height: 350px;
 }
 
 .secao-redes-sociais p {
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 .logo-rede-social img {
@@ -167,7 +171,7 @@ Início da seção marcas */
 .marcas {
     color: #3c184e;
     text-align: center;
-   
+    
 }
 
 .imagem-marca img {
